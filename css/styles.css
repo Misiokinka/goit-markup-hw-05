@@ -1,3 +1,14 @@
+/* :root {
+    --c-brand: #fd9222;
+    --c-primary: #111;
+    --c-primary-tr: #1111111a;
+
+    --c-primary-light-tr: #8e8f99;
+   
+    --c-background: #1e1823;
+    --c-background-light: #fafafa;
+  } */
+
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
@@ -613,7 +624,7 @@ button {
     padding: 72px 24px 24px 24px;
     overflow: auto;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -827,6 +838,7 @@ button {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    color: #8e8f99;
 
 }
 
