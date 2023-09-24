@@ -787,7 +787,7 @@ button {
 .modal-checkbox {
     display: flex;
     align-items: center;
-    gap: 12px;
+  
     margin-bottom: 24px;
 }
 
@@ -801,13 +801,14 @@ button {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right:8px ;
 }
 
-.modal-checkbox-icon {
+/* .modal-checkbox-icon {
     opacity: 0;
-}
+} */
 
-.modal-checkbox-input:checked+.modal-checkbox-text .modal-checkbox-check {
+.modal-checkbox-input:checked+.modal-checkbox-text .modal-checkbox-check .modal-checkbox-icon {
     opacity: 1;
     visibility: visible;
     transition: cubic-bezier(0.4, 0, 0.2, 1);
@@ -870,4 +871,5 @@ button {
 
 .checkbox-link {
     color: #4d5ae5;
+    text-decoration: underline;
 }
