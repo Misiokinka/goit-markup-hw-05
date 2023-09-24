@@ -701,7 +701,8 @@ button {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 360px;
     height: 40px;
-    margin-bottom: 8px;
+    padding: 8px 16px;
+    width: 100%;
 }
 
 .modal-input :focus {
@@ -723,9 +724,6 @@ button {
     margin-bottom: 16px;
 }
 
-.user-name-icon {
-    fill: #4D5AE5;
-}
 
 .modal-textarea {
     height: 120px;
@@ -780,6 +778,7 @@ button {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+
 }
 
 
@@ -787,7 +786,7 @@ button {
 .modal-checkbox {
     display: flex;
     align-items: center;
-  
+
     margin-bottom: 24px;
 }
 
@@ -801,7 +800,7 @@ button {
     align-items: center;
     justify-content: center;
     fill: transparent;
-    margin-right:8px ;
+    margin-right: 8px;
 }
 
 .modal-checkbox-icon {
@@ -837,8 +836,10 @@ button {
 .subscribe-form {
     display: flex;
     gap: 24px;
+}
 
-
+.subscribe-footer {
+    margin-left: 120px;
 }
 
 .button-subscribe {
@@ -865,7 +866,7 @@ button {
 .subscribe-icon {
     margin-left: 16px;
     fill: #FFFFFF;
-   
+
 
 }
 
