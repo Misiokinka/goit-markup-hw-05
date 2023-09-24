@@ -804,9 +804,9 @@ button {
     margin-right:8px ;
 }
 
-/* .modal-checkbox-icon {
+.modal-checkbox-icon {
     opacity: 0;
-} */
+}
 
 .modal-checkbox-input:checked+.modal-checkbox-text .modal-checkbox-check .modal-checkbox-icon {
     opacity: 1;
