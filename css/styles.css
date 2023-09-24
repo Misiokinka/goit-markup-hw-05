@@ -658,9 +658,25 @@ button {
 
 }
 
-/* .modal-close:active {
-    fill: #fff;
-} */
+
+.modal-input-subscribe {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #ffffff;
+
+}
+
+.modal-input-subscribe ::placeholder {
+    color: #ffffff;
+}
 
 .modal-label {
     display: block;
@@ -806,10 +822,11 @@ button {
     border: none;
     fill: #f4f4fd;
 }
-.modal-checkbox-text{
+
+.modal-checkbox-text {
     font-size: 12px;
     line-height: 1.17;
-    letter-spacing: 0.04em; 
+    letter-spacing: 0.04em;
 
 }
 
