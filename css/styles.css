@@ -807,7 +807,7 @@ button {
     opacity: 0;
 }
 
-.modal-checkbox-input:checked+.modal-checkbox-check .modal-checkbox-icon {
+.modal-checkbox-input:checked+.modal-checkbox-text .modal-checkbox-check {
     opacity: 1;
     visibility: visible;
     transition: cubic-bezier(0.4, 0, 0.2, 1);
@@ -864,6 +864,7 @@ button {
 .subscribe-icon {
     margin-left: 16px;
     fill: #FFFFFF;
+   
 
 }
 
