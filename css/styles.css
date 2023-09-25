@@ -809,8 +809,7 @@ button {
     opacity: 0;
 }
 
-.modal-checkbox-input:checked + .modal-checkbox-text .modal-checkbox-icon {
-
+.modal-checkbox-input:checked+.modal-checkbox-text .modal-checkbox-check {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
